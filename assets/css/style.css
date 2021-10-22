@@ -29,7 +29,6 @@ body {
 .info-row {
     max-width: 1100px;
     margin: 0 auto;
-    zoom: 1;
 }
 
 #infobar, .info-row {
@@ -47,7 +46,6 @@ body {
 #info-bar, .info-bar-left {
     float: left;
     margin-right: 0;
-    flex-grow: 1;
 }
 
 .info-contact {
