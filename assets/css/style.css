@@ -10,11 +10,13 @@ body {
 }
 
 /* header */
+
 .wrapper {
     position: relative;
 }
 
 /* info bar */
+
 #info-bar {
     background-color: rgb(77, 165, 88);
     width: 100%;
@@ -22,4 +24,37 @@ body {
     border-style: none;
     font-size: 11px;
     color: white;
+}
+
+.info-row {
+    max-width: 1100px;
+    margin: 0 auto;
+    zoom: 1;
+}
+
+#infobar, .info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#infobar, a {
+    color: white
+}
+
+/* info bar left side */
+
+#info-bar, .info-bar-left {
+    float: left;
+    margin-right: 0;
+    flex-grow: 1;
+}
+
+.info-contact {
+    line-height: 45px;
+}
+
+.info-bar-spacer {
+    display: inline-block;
+    padding: 0 6px;
 }
