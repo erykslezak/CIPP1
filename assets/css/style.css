@@ -8,7 +8,7 @@
 
 body {
     min-height: 100%;
-    font-family: PT-Sans, sans-serif;
+    font-family: "PT Sans", sans-serif;
     color: black;
 }
 
@@ -152,6 +152,7 @@ a {
     border-style: none;
     font-size: 11px;
     color: white;
+    font-family: Antic-Slab, sans-serif;
 }
 
 .footer-row {
