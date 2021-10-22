@@ -9,6 +9,10 @@ body {
     color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* header */
 
 .wrapper {
@@ -55,4 +59,43 @@ body {
 .info-bar-spacer {
     display: inline-block;
     padding: 0 6px;
+}
+
+/* info bar right side */
+
+#info-bar, .info-bar-right {
+    float: right;
+    margin-left: 0;
+}
+
+.info-bar-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 45px;
+}
+
+.info-bar-nav > ul > li {
+    float: left;
+    border-left: 1px solid white;
+}
+
+.info-bar-nav > ul > li a {
+    padding: 0 13px;
+}
+
+.info-bar-nav > ul > li:first-child {
+    border-left: none;
+}
+
+#no-dots {
+    list-style: none;
+}
+
+.payment-button {
+    padding: 0.35em 0.55em;
+    line-height: 1;
+    margin-left: 0.75em;
+    font-size: 0.7em;
+    border: 0.1em solid transparent
 }
