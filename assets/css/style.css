@@ -253,6 +253,7 @@ a {
 /* responsive */
 @media screen and (max-width: 950px) {
     
+    /* header */
     #info-bar {
         width: 100%;
         height: 90px;
@@ -282,4 +283,24 @@ a {
         border-bottom: 1px solid rgb(255, 255, 255);
     }
     
+    #menu {
+        width: 100px;
+        margin-left: 170px;
+        margin-bottom: -240px;
+        line-height: 25px;
+        font-size: 15px;
+    }
+    
+    #menu a:hover {
+        color: hsl(130, 100%, 50%);
+        padding-top: 20px;
+        transition-duration: 0.2s;
+        border-style: none;
+    }
+    
+    .active {
+        color: hsl(130, 100%, 50%);
+        border-style: none;
+        padding-top: 20px;
+    }
 }
