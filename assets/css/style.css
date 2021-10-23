@@ -137,6 +137,7 @@ a {
 #menu a:hover {
     border-top: 3px solid hsl(130, 100%, 50%);
     padding-top: 20px;
+    transition-duration: 0.2s;
 }
 
 .active {
