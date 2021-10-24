@@ -201,55 +201,50 @@ a {
     width: 100%;
     padding: 0 20px;
 }
-
 /* survey form */
-.form-section {
-    clear: left;
-    background: url("https://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 900px;
-}
 
-.form-size {
-    width: 50%;
-    float: left;
-}
-
-
-
-.text-input {
+.form {
     background: transparent;
     color: #363839;
     width: 40%;
-    height: 25px;
+    height: 35px;
     margin: 5px 0 20px 0;
     border: 1px solid #000000;
     border-radius: 2px;
 }
 
-.text-input:hover {
-    border-color: #f16c6b;
+.form:hover {
+    border-color: rgb(77, 165, 88);
 }
 
-.join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
+.submit-button {
+    margin: 20px 0;
+    border-radius: 1px;
+    padding: 15px 20px 15px 10px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
+    background-color: rgb(77, 165, 88);
     color: #fafafa;
     display: block;
 }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #f16c6b;
+.submit-button:hover {
+    background-color: rgb(80, 196, 95);
+    color: #fafafa;
+}
+
+/* placeholder changes */
+input{
+    text-indent: 10px;
+    font-size: 18px;
+  }
+
+.required:after {
+    content:" *";
+    color: red;
 }
 
 /* footer */
-
 #footer {
     background-color: #363839;
     width: 100%;
