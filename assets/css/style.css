@@ -177,7 +177,6 @@ a {
 }
 
 /* sections */
-
 .section-row > img {
     width: 100%;
     padding: 0px 20px 20px 20px;
@@ -196,13 +195,32 @@ a {
     margin: 5px auto;
 }
 
+#section, .left-side {
+    float: left;
+    
+}
+
+#section, .right-side {
+    float: right;
+    
+}
+
 #section p {
     margin: 25px 0;
     width: 100%;
     padding: 0 20px;
 }
-/* survey form */
 
+#section a {
+    color: #858282;
+}
+
+#section a:hover {
+    color: hsl(128, 56%, 43%);
+    transition-duration: 0.5s;
+}
+
+/* forms */
 .form {
     background: transparent;
     color: #363839;
@@ -237,6 +255,12 @@ a {
     height: 80px;
     margin-left: 22px; 
     width: 80.7%;
+}
+
+.contact-form {
+    height: 80px; 
+    width: 80.7%;
+    margin-left: 15px;
 }
 
 /* placeholder changes */
