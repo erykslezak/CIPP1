@@ -233,6 +233,12 @@ a {
     color: #fafafa;
 }
 
+.quote-form {
+    height: 80px;
+    margin-left: 22px; 
+    width: 80.7%;
+}
+
 /* placeholder changes */
 input{
     text-indent: 10px;
