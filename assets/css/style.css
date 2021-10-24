@@ -267,11 +267,15 @@ ul#menu ul li a {
 }
 
 #section a {
-    color: #858282;
+    color: hsl(128, 56%, 43%);
+}
+
+#section p a {
+    color: hsl(128, 56%, 43%);
 }
 
 #section a:hover {
-    color: hsl(128, 56%, 43%);
+    color: rgb(77, 165, 88);
     transition-duration: 0.5s;
 }
 
