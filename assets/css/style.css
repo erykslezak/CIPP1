@@ -207,8 +207,6 @@ ul#menu ul li a {
     width:150px;
 }
 
-
-
 /* section bar */
 #section-bar {
     width: 100%;
@@ -252,18 +250,20 @@ ul#menu ul li a {
 
 #section, .left-side {
     float: left;
-    
 }
 
 #section, .right-side {
     float: right;
-    
 }
 
-#section p {
+#section p,h3 {
     margin: 25px 0;
     width: 100%;
     padding: 0 20px;
+}
+
+#section ul{
+    padding-left: 50px;
 }
 
 #section a {
