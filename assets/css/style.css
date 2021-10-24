@@ -123,7 +123,7 @@ a {
 #nav {
     width: 100%;
     height: 345px;
-    border-bottom: 2px solid rgba(139, 139, 139, 0.267);
+    border-bottom: 1px solid rgba(139, 139, 139, 0.267);
     color: black;
 }
 
@@ -153,6 +153,61 @@ a {
     border-top: 3px solid hsl(130, 100%, 50%);
     padding-top: 20px;
 }
+
+ul#menu li:hover > ul
+{
+    visibility:visible;
+    opacity:1;
+}
+
+ul#menu ul, ul#menu ul li ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    visibility:hidden;
+    opacity:0;
+    position: absolute;
+    z-index: 99999;
+    width:150px;
+    background:#f8f8f8;
+    box-shadow:1px 1px 3px #ccc;
+    -webkit-transition:opacity 0.2s linear, visibility 0.2s linear;
+    -moz-transition:opacity 0.2s linear, visibility 0.2s linear;
+    -o-transition:opacity 0.2s linear, visibility 0.2s linear;
+    transition:opacity 0.2s linear, visibility 0.2s linear;
+}
+ 
+ul#menu ul {
+    top: 330px;
+    left: 850px;
+}
+ 
+ul#menu ul li ul {
+    top: 0;
+    left: 150px; /* strong related to width:180px; from above */
+}
+ 
+ul#menu ul li {
+    clear:both;
+    width:100%;
+    border:0 none;
+    border-bottom:1px solid #c9c9c9;
+}
+ 
+ul#menu ul li a {
+    background:none;
+    padding:7px 15px 7px 5px;
+    color:#616161;
+    text-shadow:1px 1px 0px #fff;
+    text-decoration:none;
+    display:inline-block;
+    border:0 none;
+    float:right;
+    clear:both;
+    width:150px;
+}
+
+
 
 /* section bar */
 #section-bar {
