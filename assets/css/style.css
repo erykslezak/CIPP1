@@ -157,7 +157,7 @@ a {
 /* section bar */
 #section-bar {
     width: 100%;
-    background: url(../images/sectionbar.jpg);
+    background: url(../images/sectionbar.png) no-repeat center;
     height: 72px;
     padding-top: 10px;
     color: #282A2B;
