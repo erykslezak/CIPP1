@@ -317,10 +317,15 @@ a {
     /* logo and menu */
     #menu {
         width: 100px;
-        margin-left: 170px;
-        margin-bottom: -240px;
-        line-height: 25px;
+        margin-left: 250px;
+        margin-bottom: -220px;
+        line-height: 35px;
         font-size: 15px;
+    }
+
+    #menu li {
+        padding: 0;
+        margin-left: 5px;
     }
     
     #menu a:hover {
