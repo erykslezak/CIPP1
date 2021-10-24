@@ -250,6 +250,7 @@ ul#menu ul li a {
 
 #section, .left-side {
     float: left;
+    margin: 0;
 }
 
 #section, .right-side {
