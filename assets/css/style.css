@@ -371,6 +371,23 @@ input{
     color: red;
 }
 
+/* google maps embed */
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    min-width: 300px;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
 /* footer */
 #footer {
     background-color: #363839;
@@ -441,7 +458,6 @@ input{
 }
 
 /* copyright footer */
-
 #copyright {
     background-color: #282A2B;
     width: 100%;
@@ -461,11 +477,15 @@ input{
     line-height: 40px;
 }
 
-
 /* responsive */
+@media screen and (max-width: 621px) {
+    .map-responsive {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
 /* for screen under 680px */
-@media screen and (max-width: 680px) 
-{
+@media screen and (max-width: 680px) {
     /* info bar */
     #info-bar {
         width: 100%;
