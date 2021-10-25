@@ -119,34 +119,71 @@
             </div>
             <h1 style="padding-top: 500px; padding-bottom: 50px;">Contact Form</h1>
             <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-                <label for="name" style="padding-right: 150px;" class="required">Name</label>
-                <input type="text" id="name" name="first_name" class="form" placeholder="First" required>
-                <input type="text" id="name" name="last_name" class="form" placeholder="Last" required>
-                
-                <label for="comp-name" style="padding-right: 75px;" class="required">Company Name</label>
-                <input type="text" id="comp-name" name="company_name" class="form" required>
-                <br>
-                <label for="email" style="padding-right: 151px;" class="required">Email</label>
-                <input type="email" id="email" name="email_address" class="form" required>
-                <br>
-                <label for="phone-number" style="padding-right: 80px;" class="required">Phone Number</label>
-                <input type="text id="phone-number" name="phone_number" class="form" required>
-                <br>
-                <label for="website" style="padding-right: 134px;" class="required">Website</label>
-                <input type="text" id="website" name="company_website" class="form" required>
-                <br>
-                <label for="address" style="padding-right: 135px;" class="required">Address</label>
-                <input type="text" id="address" name="company_address_line1" class="form" placeholder="Street Address" style="width: 80.7%;" required>
-                <input type="text" id="address" name="company_address_line2" class="form" placeholder="Street Address Line 2" style="width: 80.7%; margin-left: 211px;">
-                <input type="text" id="address" name="company_address_city" class="form" placeholder="City" style="margin-left: 211px;" required>
-                <input type="text" id="address" name="company_address_county" class="form" placeholder="County" required>
-                <input type="text" id="address" name="company_address_eircode" class="form" placeholder="Eir Code" style="margin-left: 211px;" required>
-                <input type="text" id="address" name="company_address_country" class="form" placeholder="Country" required>
-                <br>
-                <label for="details" class="required">How can we assist you?</label>
-                <input type="text" id="details" name="details" class="form contact-form" required>
-
-                <input class="submit-button" style="margin-left: 211px;" type="submit" value="SUBMIT FORM">
+                <div class="row">
+                    <div class="column-25">
+                        <label for="name" class="required">Name</label>
+                    </div>
+                    <div class="column-75">
+                        <input type="text" id="name" name="first_name" class="form" placeholder="First" required>
+                        <input type="text" id="name" name="last_name" class="form" placeholder="Last" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column-25">
+                        <label for="comp-name" class="required">Company Name</label>
+                    </div>
+                    <div class="column-75">
+                        <input type="text" id="comp-name" name="company_name" class="form" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column-25">
+                        <label for="email" class="required">Email</label>
+                    </div>
+                    <div class="column-75">
+                        <input type="email" id="email" name="email_address" class="form" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column-25">
+                        <label for="phone-number" class="required">Phone Number</label>
+                    </div>
+                    <div class="column-75">    
+                        <input type="text" id="phone-number" name="phone_number" class="form" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column-25">       
+                        <label for="website" class="required">Website</label>
+                    </div>
+                    <div class="column-75">
+                        <input type="text" id="website" name="company_website" class="form" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column-25">
+                        <label for="address" class="required">Address</label>
+                    </div>
+                    <div class="column-75">
+                        <input type="text" id="address" name="company_address_line1" class="form" placeholder="Street Address" required>
+                        <input type="text" id="address" name="company_address_line2" class="form" placeholder="Street Address Line 2">
+                        <input type="text" id="address" name="company_address_city" class="form" placeholder="City" required>
+                        <input type="text" id="address" name="company_address_county" class="form" placeholder="County" required>
+                        <input type="text" id="address" name="company_address_eircode" class="form" placeholder="Eir Code" required>
+                        <input type="text" id="address" name="company_address_country" class="form" placeholder="Country" required>
+                    </div>
+                </div>
+                <div class="row">  
+                    <div class="column-25">     
+                        <label for="details" class="required">How can we assist you?</label>
+                    </div>
+                    <div class="column-75">
+                        <input type="text" id="details" name="details" class="form contact-form" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <input class="submit-button" type="submit" value="SUBMIT FORM">
+                </div>
             </form>
         </div>
     </section>
