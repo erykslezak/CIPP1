@@ -25,6 +25,14 @@ a {
     text-decoration: none;
 }
 
+h2, h1 {
+    margin-left: 20px;
+}
+
+h6 {
+    margin-right: 20px;
+}
+
 /* header */
 
 .wrapper {
