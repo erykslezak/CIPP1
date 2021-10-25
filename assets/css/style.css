@@ -149,6 +149,7 @@ h6 {
     list-style-type: none;
     margin-right: 0px;
     padding-left: 105px;
+    position: relative;
 }
 
 #menu a:hover {
@@ -186,13 +187,13 @@ ul#menu ul, ul#menu ul li ul {
 }
  
 ul#menu ul {
-    top: 325px;
-    left: 985px;
+    top: 25px;
+    left: 75px;
 }
  
 ul#menu ul li ul {
     top: 0;
-    left: 150px; /* strong related to width:180px; from above */
+    left: 150px;
 }
  
 ul#menu ul li {
@@ -241,6 +242,14 @@ ul#menu ul li a {
 .section-row > img {
     width: 100%;
     padding: 0px 20px 20px 20px;
+}
+
+.section-img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    max-width: 1000px;
 }
 
 #section {
@@ -562,10 +571,24 @@ input{
         border-style: none;
     }
     
+    ul#menu ul {
+        top: 0;
+        left: 95px;
+    }
+
     .active {
         color: hsl(130, 100%, 50%);
         border-style: none;
         padding-top: 20px;
+    }
+}
+
+/* for screens under 520px */
+@media screen and (max-width: 520px) {
+    /* move menu to left side due to smaller screen */
+    ul#menu ul {
+        top: 0;
+        left: -155px;
     }
 }
 
