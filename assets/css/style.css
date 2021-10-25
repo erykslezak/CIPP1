@@ -285,15 +285,20 @@ ul#menu ul li a {
 }
 
 #section a {
-    color: hsl(128, 56%, 43%);
+    color: hsl(128, 76%, 20%);
 }
 
 #section p a {
-    color: hsl(128, 56%, 43%);
+    color: hsl(128, 76%, 20%);
 }
 
 #section a:hover {
-    color: rgb(77, 165, 88);
+    color: hsl(128, 56%, 43%);
+    transition-duration: 0.5s;
+}
+
+#section p a:hover {
+    color: hsl(128, 56%, 43%);
     transition-duration: 0.5s;
 }
 
@@ -501,6 +506,7 @@ input{
         margin-right: 20px;
     }
 }
+
 /* for screen under 680px */
 @media screen and (max-width: 680px) {
     /* info bar */
@@ -536,7 +542,7 @@ input{
         display: inline-block;
         list-style-type: none;
     }
-    /* form columns */
+
     column-25, .column-75 {
         width: 100%;
         margin-top: 0;
