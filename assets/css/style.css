@@ -597,6 +597,15 @@ input{
     .info-bar-nav > ul > li {
         border-bottom: 1px solid white;
     }
+
+    .logo {
+        width: 175px;
+        height: 175px;
+    }
+
+    ul#menu {
+        margin-left: 170px;
+    }
 }
 
 @media screen and (max-width: 280px) {
@@ -618,8 +627,7 @@ input{
 }
 
 /* for screens under 893px wide */
-@media screen and (max-width: 893px) 
-{
+@media screen and (max-width: 893px) {
     /* logo and menu */
     #menu {
         width: 100px;
