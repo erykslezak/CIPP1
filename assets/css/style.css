@@ -396,6 +396,11 @@ input[type=email] {
     margin-left: 15px;
 }
 
+.contact-position {
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+
 /* placeholder changes */
 input{
     text-indent: 10px;
@@ -514,10 +519,14 @@ input{
 }
 
 /* responsive */
-@media screen and (max-width: 621px) {
+@media screen and (max-width: 604px) {
     .map-responsive {
         margin-left: 20px;
         margin-right: 20px;
+    }
+    .contact-position {
+        padding-top: 30px;
+        padding-bottom: 50px;
     }
 }
 
