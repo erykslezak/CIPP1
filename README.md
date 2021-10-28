@@ -86,3 +86,33 @@ Two fonts with a soft, dynamic style have been used throughout the whole site: [
 The site theme was chosen based on client's logo that was provided, bright colors were decided to be used. The infobar being #4da558 to complement the logo, for footer decision was to go more dark to not have completely bright site which in that case we have used two darker shades being #363839 and #282A2B for copyright part of footer. The text has different colors depending on it's background, the same goes for links across the site.
 
 <div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+
+<span id="features"></span>
+
+## Features
+
+<span id="features-all"></span>
+
+### Sitewide
+
+**1. Infobar**
+
+- Infobar has been divided into two sections to keep contact and forms separate.
+- Contact side of infobar is linked to both phone and email, for either straight mobile call or mail being created in default mail app.
+- Quote side of infobar is linked to different forms for visitor to contact the right department of client's company.
+- For mobile browsing the infobar size has been increased vertically keeping all options for visitor useable.
+
+**2. Navbar**
+- Design has been modified to vertical menu for mobile browsing.
+- Dropdown menu has been added to separate services pages and is accessible from all devices.
+- Logo's size is decreased for mobile and subnav menu position moved when hovered over the logo.
+- Hover effect on all menu selections is bright green matching infobar. Transition has been implemented to add some animations onto site.
+- Bottom border of navbar has been created to separate all pages from it with a subtle grey color.
+
+
+**3. Footer**
+
+- Footer has been divided into 3 sections which consist of logo, menu, location and contact details.
+- Separate section of footer has been added for copyright.
+- Footer is always positioned at the bottom of the site. For mobile footer has been increased vertically keeping all sections of it ordered.
+- Menu as contact details are both linked bringing back the bright green colors of infobar.
