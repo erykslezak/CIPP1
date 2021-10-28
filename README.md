@@ -18,6 +18,7 @@
 - <a href="#features">Features</a>
   - <a href="#features-all">Site wide</a>
   - <a href="#features-pages">Pages</a>
+  - <a href="#features-forms">Forms</a>
   - <a href="#features-future">Still to implement</a>
 - <a href="#technologies">Technologies Used</a>
 - <a href="#testing">Testing</a>
@@ -159,6 +160,8 @@ The site theme was chosen based on client's logo that was provided, bright color
 - Top of page is divided into two sections. Left containing client's logo and address with contact details. Right containing embedded google maps with address of client's office.
 - Contact Us form.
 
+<span id="features-forms"></span>
+
 ### Forms
 
 **11. Free Site Survey form**
@@ -169,3 +172,24 @@ The site theme was chosen based on client's logo that was provided, bright color
 
 - Page with a form for visitors to complete in order for client's company to give potentialy a new customer quotation for his/her site.
 
+<span id="features-future"></span>
+
+### Features left to implement
+
+- Online payment form
+
+  _Area has been designed in infobar. Form yet to bo completed with possible stripe integration._
+
+- 'Hamburger' menu for mobile
+
+  _As of now, mobile has a vertical style menu with a sub nav menu displaying over logo if 'our services' section has been hovered over._
+
+- Order of divs on certain pages
+
+  _e.g. For mobile some picture are above the mentioned text and are meant to be under._
+
+- Live chat integration
+
+  _A pop up live chat notification could possibly bring more customers in as visitor would get their answers straight away_
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
