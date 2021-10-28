@@ -129,3 +129,43 @@ The site theme was chosen based on client's logo that was provided, bright color
 
 - An imagee of gas bottles to let visitor know straight away what client's services are.
 - Text introducing JMN Suppression to the visitor.
+
+**5. About Us page**
+
+- More information about client's company such as their history, partners and more.
+- Link to contact us page.
+
+**6. Design page**
+
+- Page consits of information on how the designing process of fire suppression works describing steps taken.
+
+**7. Installation & Maintenance page**
+
+- An image showing requirements in order to have a safety site.
+- FAQ style page describing different type of suppression systems, information regarding commissioning and installation.
+
+**8. Room Integrity Testing page**
+
+- FAQ style page with images beside the paragraphs.
+- Information on what type of suppression systems needs that sort of procedure and why is it important.
+
+**9. Our Products page**
+
+- Gives visitor insight of what is our most commonly used system and type of gas.
+- Images as well as product names are linked to the manufacturers.
+
+**10. Contact Us page**
+
+- Top of page is divided into two sections. Left containing client's logo and address with contact details. Right containing embedded google maps with address of client's office.
+- Contact Us form.
+
+### Forms
+
+**11. Free Site Survey form**
+
+- Page with a form for visitors to complete in order for client's company to book in a free site survey.
+
+**12. Quotation form**
+
+- Page with a form for visitors to complete in order for client's company to give potentialy a new customer quotation for his/her site.
+
