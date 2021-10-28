@@ -70,3 +70,19 @@ For ease of reference, the means by which a user's expectations have been met ar
 | Site and images to be fast to load                                                                                                                           | Reduction of file sizes have been made for the site to load faster. All done without impacting page quality. E                      |
 
 <span id="ux-wireframes"></span>
+
+### Wireframes
+
+The wireframes were successfully converted into a live functioning website, however for mobile the text and images are not ordered as the website/tablet. This to be changed in future.
+
+The full suite of wireframes for **desktop**, **tablet** and **mobile** devices, plus a **sitemap**, can be accessed [here](wireframes/).
+
+### Site theme
+
+Based on the client's brief expectations for the site, a clean, clear and simple aesthetic has been implemented. 
+
+Two fonts with a soft, dynamic style have been used throughout the whole site: [PT Sans](https://fonts.google.com/specimen/PT+Sans) and [Antic Slab](https://fonts.google.com/specimen/Antic+Slab).
+
+The site theme was chosen based on client's logo that was provided, bright colors were decided to be used. The infobar being #4da558 to complement the logo, for footer decision was to go more dark to not have completely bright site which in that case we have used two darker shades being #363839 and #282A2B for copyright part of footer. The text has different colors depending on it's background, the same goes for links across the site.
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
