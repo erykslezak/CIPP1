@@ -341,7 +341,7 @@ label {
     clear: both;
 }
  
-input[type=text], select {
+input[type=text], [type=email], select {
     width: 48%;
     height: 45px;
     padding: 12px;
@@ -363,7 +363,7 @@ textarea {
     resize: vertical;
 }
 
-input[type=email] {
+/* input[type=email] {
     width: 48%;
     height: 45px;
     padding: 12px;
@@ -372,7 +372,7 @@ input[type=email] {
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
-}
+} */
 
 .form:hover {
     border-color: rgb(77, 165, 88);
@@ -393,12 +393,6 @@ input[type=email] {
 .submit-button:hover {
     background-color: rgb(80, 196, 95);
     color: #fafafa;
-}
-
-.quote-form {
-    height: 80px;
-    margin-left: 22px; 
-    width: 80.7%;
 }
 
 .contact-position {
