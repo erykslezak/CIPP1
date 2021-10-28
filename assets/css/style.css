@@ -341,9 +341,20 @@ label {
     clear: both;
 }
  
-input[type=text], select, textarea {
+input[type=text], select {
     width: 48%;
     height: 45px;
+    padding: 12px;
+    margin: 10px 0 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+textarea {
+    width: 97.5%;
+    height: 90px;
     padding: 12px;
     margin: 10px 0 10px 5px;
     border: 1px solid #ccc;
@@ -388,12 +399,6 @@ input[type=email] {
     height: 80px;
     margin-left: 22px; 
     width: 80.7%;
-}
-
-.contact-form {
-    height: 80px; 
-    width: 80.7%;
-    margin-left: 15px;
 }
 
 .contact-position {
