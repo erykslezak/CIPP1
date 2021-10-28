@@ -116,3 +116,16 @@ The site theme was chosen based on client's logo that was provided, bright color
 - Separate section of footer has been added for copyright.
 - Footer is always positioned at the bottom of the site. For mobile footer has been increased vertically keeping all sections of it ordered.
 - Menu as contact details are both linked bringing back the bright green colors of infobar.
+
+<span id="features-pages"></span>
+
+### Pages
+
+- All pages across the site have fixed width.
+- A section bar has been added that divides header and page. Home page being only one without it.
+- Section bar consits of pages title and breadcrumbs aligned left and right.
+
+**4. Home page**
+
+- An imagee of gas bottles to let visitor know straight away what client's services are.
+- Text introducing JMN Suppression to the visitor.
