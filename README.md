@@ -193,3 +193,35 @@ The site theme was chosen based on client's logo that was provided, bright color
   _A pop up live chat notification could possibly bring more customers in as visitor would get their answers straight away_
 
 <div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+
+<span id="technologies"></span>
+
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+
+### Project management
+
+- [GitHub](https://github.com/) - Version control and deployment
+- [GitPod](https://gitpod.io/) - IDE used to code the site
+- [Balsamiq](https://balsamiq.com/wireframes/) - Wireframe creation app
+
+### Style and theme
+
+- [Font Awesome](https://fontawesome.com/) - Icon used for menu in footer
+- [Google Fonts](https://fonts.google.com/) - PT Sans and Antic Slab fonts
+- [Free Formatter](https://www.freeformatter.com/html-formatter.html) - Used for formatting HTML code
+
+### Image manipulation
+
+- [ImageOptim](https://imageoptim.com/mac) - App used for cropping and reducing file size of images
+
+### Online resources
+
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3 Schools](https://www.w3schools.com/)
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
