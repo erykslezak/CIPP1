@@ -188,9 +188,6 @@ ul#menu ul, ul#menu ul li ul {
     width:150px;
     background:#f8f8f8;
     box-shadow:1px 1px 3px #ccc;
-    -webkit-transition:opacity 0.2s linear, visibility 0.2s linear;
-    -moz-transition:opacity 0.2s linear, visibility 0.2s linear;
-    -o-transition:opacity 0.2s linear, visibility 0.2s linear;
     transition:opacity 0.2s linear, visibility 0.2s linear;
 }
  
