@@ -225,3 +225,86 @@ The site theme was chosen based on client's logo that was provided, bright color
 - [W3 Schools](https://www.w3schools.com/)
 
 <div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+
+<span id="testing"></span>
+
+## Testing
+
+<span id="testing-auto"></span>
+
+### Automated testing
+
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) - Ran an audit using lighthouse on all pages for both desktop and mobile.
+
+Summary and Scores:
+
+- All pages have accessibility scores lowered due to `Background and foreground colors do not have a sufficient contrast ratio.`.
+- Pages containing section bar have also accessibility scores lowered due to breadcrumbs heading being not in a sequentially-descending order.
+- Few mobile issues such as tag `a.active` overlaps other menu causing lower SEO score.
+- Some images also do not have explicit width and height and display with incorrect aspect ratio.
+- Performance also throws errors due to images being png/jpeg.
+
+</details>
+
+<br>
+
+<details>
+
+### Home:
+![Home-Desktop](audit/desktop/index-desktop.png "Home page desktop score")
+### About Us:
+![About-Desktop](audit/desktop/about-desktop.png "About page desktop score")
+### Design:
+![Design-Desktop](audit/desktop/design-desktop.png "Design page desktop score")
+### Installation & Maintenance:
+![Installation-Desktop](audit/desktop/installation-desktop.png "Installation page desktop score")
+### Room Integrity Testing:
+![Integrity-Desktop](audit/desktop/integrity-desktop.png "Integrity page desktop score")
+### Our Products:
+![Products-Desktop](audit/desktop/products-desktop.png "Products page desktop score")
+### Contact Us:
+![Contact-Desktop](audit/desktop/contact-desktop.png "Contact page desktop score")
+### Free Site Survey:
+![Survey-Desktop](audit/desktop/survey-desktop.png "Survey page desktop score")
+### Quotation Details:
+![Quotation-Desktop](audit/desktop/quotation-desktop.png "Quotation page desktop score")
+
+<summary>Desktop scores</summary>
+
+</details>
+
+<br>
+
+<details>
+
+### Home:
+![Home-Mobile](audit/mobile/index-mobile.png "Home page mobile score")
+### About Us:
+![About-Mobile](audit/mobile/about-mobile.png "About page mobile score")
+### Design:
+![Design-Mobile](audit/mobile/design-mobile.png "Design page mobile score")
+### Installation & Maintenance:
+![Installation-Mobile](audit/mobile/installation-mobile.png "Installation page mobile score")
+### Room Integrity Testing:
+![Integrity-Mobile](audit/mobile/integrity-mobile.png "Integrity page mobile score")
+### Our Products:
+![Products-Mobile](audit/mobile/products-mobile.png "Products page mobile score")
+### Contact Us:
+![Contact-Mobile](audit/mobile/contact-mobile.png "Contact page mobile score")
+### Free Site Survey:
+![Survey-Mobile](audit/mobile/survey-mobile.png "Survey page mobile score")
+### Quotation Details:
+![Quotation-Mobile](audit/mobile/quotation-mobile.png "Quotation page mobile score")
+
+<summary>Mobile scores</summary>
+
+</details>
+
+<br>
+
+- [W3C - HTML](https://validator.w3.org/) - No errors or warnings detected - **PASS**
+
+- [W3C - CSS](https://jigsaw.w3.org/css-validator/) - No errors or warnings detected - **PASS**
+
+- [CSS Lint](http://csslint.net/) - CSS lint found 0 errors and 105 warnings. - **PASS**
+  - Don't use IDs in selectors
