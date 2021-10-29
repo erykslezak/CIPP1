@@ -102,7 +102,7 @@
 				</div>
 			</div>
 		</div>
-		<section id="section">
+		<div id="section">
 			<div class="section-row">
 				<p>Please complete the following form, providing details of your requirements and we will be happy to quote you for the service or products that your require.
 				</p>
@@ -113,7 +113,7 @@
 						</div>
 						<div class="column-75">
 							<input type="text" id="name" name="first_name" class="form" placeholder="First" required>
-							<input type="text" id="name" name="last_name" class="form" placeholder="Last" required>
+							<input type="text" id="lname" name="last_name" class="form" placeholder="Last" required>
 						</div>
 					</div>
 					<div class="row">
@@ -150,15 +150,15 @@
 					</div>
 					<div class="row">
 						<div class="column-25">
-							<label for="address" class="required">Address</label>
+							<label for="address_line1" class="required">Address</label>
 						</div>
 						<div class="column-75">
-							<input type="text" id="address" name="company_address_line1" class="form" placeholder="Street Address" required>
-							<input type="text" id="address" name="company_address_line2" class="form" placeholder="Street Address Line 2">
-							<input type="text" id="address" name="company_address_city" class="form" placeholder="City" required>
-							<input type="text" id="address" name="company_address_county" class="form" placeholder="County" required>
-							<input type="text" id="address" name="company_address_eircode" class="form" placeholder="Eir Code" required>
-							<input type="text" id="address" name="company_address_country" class="form" placeholder="Country" required>
+							<input type="text" id="address_line1" name="company_address_line1" class="form" placeholder="Street Address" required>
+							<input type="text" id="address_line2" name="company_address_line2" class="form" placeholder="Street Address Line 2">
+							<input type="text" id="address_city" name="company_address_city" class="form" placeholder="City" required>
+							<input type="text" id="address_county" name="company_address_county" class="form" placeholder="County" required>
+							<input type="text" id="address_eircode" name="company_address_eircode" class="form" placeholder="Eir Code" required>
+							<input type="text" id="address_country" name="company_address_country" class="form" placeholder="Country" required>
 						</div>
 					</div>
 					<div class="row">
@@ -166,7 +166,7 @@
 							<label for="quote" class="required">What would you like us to quote for?</label>
 						</div>
 						<div class="column-75">
-							<textarea id="quote" name="quotation_details" class="form" row="50" col="5" required></textarea>
+							<textarea id="quote" name="quotation_details" class="form" cols="5" rows="50" required></textarea>
 						</div>
 					</div>
 					<div class="row">
@@ -174,7 +174,7 @@
 					</div>
 				</form>
 			</div>
-		</section>
+		</div>
 		<footer>
 			<div id="footer">
 				<div class="footer-row">
