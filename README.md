@@ -382,3 +382,24 @@ The following cases were carried out on all pages, both desktop and mobile to en
   - check that form can only be submited once required details are filled in.
   - check that user will get an error if fields are left blank.
   - check that email address needs to be in correct format.
+
+<span id="testing-responsive"></span>
+
+### Responsiveness
+
+The site has been designed with a mobile and tablet browsing in mind. It has been tested through all stages of development using [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools).
+Many different media queries have been created to make sure all information and images will be responsive.
+
+Following issues emerged but has been addressed and solved
+
+- Info bar not resizing correctly.
+  - `height` has been changed depending on display size to extend the info bar.
+- Logo being fixed size covering too much for smaller screens.
+  - Reduced the `height` and `width`.
+- Nav menu wasn't optimized for mobile and was going off screen.
+  - It is now vertical for lower screen devices.
+- Sub nav menu was covering the existing vertical menu.
+  - It has been moved to right side of main nav bar and left covering logo for smaller screen devices.
+- Footer wasn't going vertical the smaller the screen was.
+  - It has been changed making the footer fully vertical with everything aligned.
+
