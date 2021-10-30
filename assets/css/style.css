@@ -487,6 +487,12 @@ input{
     margin-bottom: 40px;
 }
 
+#footer-jmn {
+    margin-left: -195px; 
+    font-size: 18px; 
+    color: #747373;
+}
+
 .footer-column p {
     margin-top: 30px;
     font-size: 17px;
@@ -578,7 +584,7 @@ input{
 }
 
 /* infobar adjusments for very low pixels */
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 359px) {
     /* info bar */
     #info-bar {
         width: 100%;
@@ -597,6 +603,10 @@ input{
     .logo {
         width: 175px;
         height: 175px;
+    }
+
+    #footer-jmn {
+        margin-left: -155px; 
     }
 
     ul#menu {
