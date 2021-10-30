@@ -308,3 +308,77 @@ Summary and Scores:
 
 - [CSS Lint](http://csslint.net/) - CSS lint found 0 errors and 105 warnings. - **PASS**
   - Don't use IDs in selectors
+
+  <span id="testing-manual"></span>
+
+### Manual testing
+
+The following cases were carried out on all pages, both desktop and mobile to ensure that the site is functioning as expected:
+**ALL PASSED**
+
+**1. Info bar**
+
+- check that pressing the contact number want to call straight away.
+- check that pressing on email will want to open default mail app.
+- check if links bring you to correct forms.
+
+**2. Nav bar**
+
+- check if all links in navbar bring you to correct page.
+- check if sub nav section of 'our services' display correctly.
+- check if logo is linked to bring you back to home page.
+- check if active and current styling is applied correctly.
+
+**3. Footer**
+
+- check that logo is linked to bring you back to home page.
+- check if all menu links are linked to bring you to correct pages.
+- check if the styling applies to all the links.
+- check if pressing on mobile / email wants to open default app in order to contact client.
+
+**3. Home**
+
+- check that image resize correctly depending on width of display.
+
+**4. About Us**
+
+- check if pressing 'contact us' at the end of section brings you to contact page.
+- check that styling is applied to `tag a` has current and hover styling.
+
+**5. Design**
+
+- check that images resize correctly depending on width of display.
+
+**6. Installation & Maintenance**
+
+- check that image resize correctly depending on width of display.
+- check that the external link has styling for current and hover.
+- check that the external link also has correct rel and target attribute.
+
+**7. Room Integrity Testing**
+
+- check that images resize correctly depending on width of display.
+
+**8. Our Products**
+
+- check that the images and links bring you to external pages.
+  - check that they have the correct attributes set.
+  - check that the links have correct styling applied.
+- check that images resize correctly depending on width of display.
+
+**9. Contact Us**
+
+- check that logo will bring you back to home page.
+- check if phone number / email will open in the default app.
+- check if google maps resizes to correct width depending on display.
+- following form testing has been done
+  - check that form can only be submited once required details are filled in.
+  - check that user will get an error if fields are left blank.
+  - check that email address needs to be in correct format.
+
+**10. Free Site Survey & Quotation Request**
+
+- following form testing has been done
+  - check that form can only be submited once required details are filled in.
+  - check that user will get an error if fields are left blank.
+  - check that email address needs to be in correct format.
