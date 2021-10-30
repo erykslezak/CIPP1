@@ -507,6 +507,8 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 
 - [Stack Overflow](https://stackoverflow.com/) - Many issues I have googled brought me there as other coders were in similar situations. 
 - [DeliciousThemes](https://deliciousthemes.com/create-a-drop-down-navigation-menu-with-html5-and-css3/) - Create a Drop-Down Navigation Menu with HTML5 and CSS3
+- [Stack Overflow](https://stackoverflow.com/questions/59220029/making-google-maps-responsive-and-resizing) - Fix google maps responsiveness and resizing.
+- [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html) - How to add favicon.
 - [W3 Schools](https://www.w3schools.com/) - Best resource when it comes to attributes etc. Used it many times and without it I would be more confused.
 - [Google](https://www.google.com/) - Ammm yes.
 
