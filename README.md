@@ -102,13 +102,17 @@ The site theme was chosen based on client's logo that was provided, bright color
 - Quote side of infobar is linked to different forms for visitor to contact the right department of client's company.
 - For mobile browsing the infobar size has been increased vertically keeping all options for visitor useable.
 
+![Infobar](features/infobar.JPG)
+
 **2. Navbar**
+
 - Design has been modified to vertical menu for mobile browsing.
 - Dropdown menu has been added to separate services pages and is accessible from all devices.
 - Logo's size is decreased for mobile and subnav menu position moved when hovered over the logo.
 - Hover effect on all menu selections is bright green matching infobar. Transition has been implemented to add some animations onto site.
 - Bottom border of navbar has been created to separate all pages from it with a subtle grey color.
 
+![Navbar](features/navbar.JPG)
 
 **3. Footer**
 
@@ -116,6 +120,8 @@ The site theme was chosen based on client's logo that was provided, bright color
 - Separate section of footer has been added for copyright.
 - Footer is always positioned at the bottom of the site. For mobile footer has been increased vertically keeping all sections of it ordered.
 - Menu as contact details are both linked bringing back the bright green colors of infobar.
+
+![Footer](features/footer.JPG)
 
 <span id="features-pages"></span>
 
