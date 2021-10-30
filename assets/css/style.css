@@ -23,6 +23,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 h2, h1 {
@@ -64,8 +65,8 @@ p, span, a {
     align-items: center;
 }
 
-#infobar, a {
-    color: white
+.info-contact > span > a:hover, .info-bar-nav > ul > li > a:hover {
+    color: white;
 }
 
 /*  -LEFT SIDE- */
