@@ -578,7 +578,7 @@ input{
 }
 
 /* infobar adjusments for very low pixels */
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 360px) {
     /* info bar */
     #info-bar {
         width: 100%;
