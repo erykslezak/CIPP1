@@ -403,3 +403,47 @@ Following issues emerged but has been addressed and solved
 - Footer wasn't going vertical the smaller the screen was.
   - It has been changed making the footer fully vertical with everything aligned.
 
+#### Browsers
+
+Tested on the following:
+
+- Chrome
+- Edge
+- Opera
+- Safari 
+
+#### Screen sizes
+
+Tested with Chrome DevTools using profiles for:
+
+- BlackBerry Z30
+- Galaxy Note 3
+- Galaxy S3
+- Moto G4
+- Nexus 7
+- iPad Mini
+- iPhone 4
+- Galaxy S5
+- Pixel 2
+- Pixel 2 XL
+- iPhone 5 SE
+- iPhone 6/7/8
+- iPhone 6/7/8 Plus
+- iPhone X
+- iPad
+- iPad Pro
+- Surface Pro
+- Nest Hub
+- Nest Hub Max
+- Mobile S
+- Mobile M
+- Mobile L
+- Tablet
+- Laptop
+- Laptop L
+
+Real world testing on:
+
+- iPhone 11
+- iPhone XR
+- MacBook Pro 16" 2021
