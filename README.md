@@ -25,7 +25,6 @@
   - <a href="#testing-auto">Automated</a>
   - <a href="#testing-manual">Manual</a>
   - <a href="#testing-responsive">Responsiveness</a>
-  - <a href="#testing-resolved">Resolved issues</a>
   - <a href="#testing-unresolved">Unresolved issues</a>
   - <a href="#testing-bugs">Known bugs</a>
 - <a href="#deployment">Deployment</a>
@@ -447,3 +446,36 @@ Real world testing on:
 - iPhone 11
 - iPhone XR
 - MacBook Pro 16" 2021
+
+<span id="testing-unresolved"></span>
+
+#### Unresolved Issues
+
+- For screens of 320px/
+  - Fix infobar alignment as it is off.
+
+<span id="testing-bugs"></span>
+
+### Known bugs
+
+- None at present
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+
+<span id="deployment"></span>
+
+## Deployment
+
+There is just one branch of this project and the deployed version of this site is the most current version in the repository.
+
+### How to deploy
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://github.com/erykslezak/CIPP1) the following steps were taken:
+
+- Log into GitHub and locate the repository.
+- At the top find and press the **settings** option
+- On the left side you will see multiple options. Find the option called **Pages** and click on it.
+- Under **Source** select the branch **main**, make sure that **root** has also been selected and then press **Save**.
+- The site is now published. It may take a while for it to be available though.
+- The site URL is just above the **Source** section visible over green background.
+
