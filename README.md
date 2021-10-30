@@ -131,6 +131,8 @@ The site theme was chosen based on client's logo that was provided, bright color
 - A section bar has been added that divides header and page. Home page being only one without it.
 - Section bar consits of pages title and breadcrumbs aligned left and right.
 
+![Section bar](features/sectionbar.JPG)
+
 **4. Home page**
 
 - An imagee of gas bottles to let visitor know straight away what client's services are.
@@ -164,6 +166,10 @@ The site theme was chosen based on client's logo that was provided, bright color
 
 - Top of page is divided into two sections. Left containing client's logo and address with contact details. Right containing embedded google maps with address of client's office.
 - Contact Us form.
+
+![Contact page](features/contact-page.JPG)
+
+![Contact form](features/contact-form.JPG)
 
 <span id="features-forms"></span>
 
