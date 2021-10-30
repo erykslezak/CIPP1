@@ -189,7 +189,15 @@ The site theme was chosen based on client's logo that was provided, bright color
 
 - Live chat integration
 
-  _A pop up live chat notification could possibly bring more customers in as visitor would get their answers straight away_
+  _A pop up live chat notification could possibly bring more customers in as visitor would get their answers straight away._
+
+- 404 Page
+
+  _404 Page to redirect if page has not been found._
+
+- Thank you page
+
+  _Page when form has successfuly been submited.
 
 <div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
 
@@ -479,3 +487,24 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 - The site is now published. It may take a while for it to be available though.
 - The site URL is just above the **Source** section visible over green background.
 
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
+
+<span id="credits"></span>
+
+## Credits
+
+- [Stack Overflow](https://stackoverflow.com/) - Many issues I have googled brought me there as other coders were in similar situations. 
+- [DeliciousThemes](https://deliciousthemes.com/create-a-drop-down-navigation-menu-with-html5-and-css3/) - Create a Drop-Down Navigation Menu with HTML5 and CSS3
+- [W3 Schools](https://www.w3schools.com/) - Best resource when it comes to attributes etc. Used it many times and without it I would be more confused.
+- [Google](https://www.google.com/) - Ammm yes.
+
+## Content
+
+- [Ansul](https://www.ansul.com/en/us/pages/ProductDetail.aspx?productdetail=INERGEN+Systems+%E2%80%93+150-Bar+%26+200-Bar) - Inergen description and image
+- [Kentec](https://kentec.co.uk/product/sigma-xt/) - Kentec description and image
+- [Koorsen](https://blog.koorsen.com/what-is-novec-1230) - Novec1320 description and image
+- [JMN Fire Alarms](https://www.jmnfirealarms.ie/) - Home, About us, Room Integrity Testing and Forms taken from client's website
+- [Fire Magazine](https://www.fire-magazine.com/fire-suppression-system-installation-and-maintenance-a-complete-guide) - Installation & Maintenance page
+- [Buildings](https://www.buildings.com/articles/35584/fire-protection-system-design) - Design page
+
+<div align="right"><a style="text-align:right" href="#top">Go to index :arrow_double_up:</a></div>
