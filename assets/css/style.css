@@ -42,12 +42,7 @@ p, span, a {
     font-family: "PT Sans", sans-serif;
 }
 
-/* header */
-.wrapper {
-    position: relative;
-}
-
-/* info bar */
+/* INFO BAR */
 
 #info-bar {
     background-color: rgb(77, 165, 88);
@@ -73,11 +68,10 @@ p, span, a {
     color: white
 }
 
-/* info bar left side */
+/*  -LEFT SIDE- */
 
 #info-bar, .info-bar-left {
     float: left;
-    margin-right: 0;
     margin-left: 10px;
 }
 
@@ -90,16 +84,13 @@ p, span, a {
     padding: 0 6px;
 }
 
-/* info bar right side */
+/* -RIGHT SIDE- */
 
 #info-bar, .info-bar-right {
     float: right;
-    margin-left: 0;
 }
 
 .info-bar-nav {
-    margin: 0;
-    padding: 0;
     list-style: none;
     line-height: 45px;
 }
@@ -129,7 +120,9 @@ p, span, a {
     border: 0.1em solid transparent
 }
 
-/* menu*/
+/* END OF INFO BAR */
+
+/* NAVBAR/MENU */
 
 .logo {
     margin-bottom: 0px;
@@ -180,16 +173,14 @@ ul#menu li:hover > ul
 
 ul#menu ul, ul#menu ul li ul {
     list-style: none;
-    margin: 0;
-    padding: 0;
-    visibility:hidden;
-    opacity:0;
+    visibility: hidden;
+    opacity: 0;
     position: absolute;
     z-index: 99999;
-    width:150px;
-    background:#f8f8f8;
-    box-shadow:1px 1px 3px #ccc;
-    transition:opacity 0.2s linear, visibility 0.2s linear;
+    width: 150px;
+    background: #f8f8f8;
+    box-shadow: 1px 1px 3px #ccc;
+    transition: opacity 0.2s linear, visibility 0.2s linear;
 }
  
 ul#menu ul {
@@ -203,26 +194,27 @@ ul#menu ul li ul {
 }
  
 ul#menu ul li {
-    clear:both;
-    width:100%;
-    border:0 none;
-    border-bottom:1px solid #c9c9c9;
+    clear: both;
+    width: 100%;
+    border: 0 none;
+    border-bottom: 1px solid #c9c9c9;
 }
  
 ul#menu ul li a {
-    background:none;
-    padding:7px 15px 7px 5px;
-    color:#616161;
-    text-shadow:1px 1px 0px #fff;
-    text-decoration:none;
-    display:inline-block;
-    border:0 none;
-    float:right;
-    clear:both;
-    width:150px;
+    background: none;
+    padding: 7px 15px 7px 5px;
+    color: #616161;
+    text-shadow: 1px 1px 0px #fff;
+    text-decoration: none;
+    border: 0 none;
+    float: right;
+    clear: both;
+    width: 150px;
 }
 
-/* section bar */
+/* END OF NAVBAR/MENU */
+
+/* SECTION BAR */
 #section-bar {
     width: 100%;
     background: url(../images/sectionbar.png) no-repeat center;
@@ -244,7 +236,9 @@ ul#menu ul li a {
     padding-top: 12px
 }
 
-/* sections */
+/* END OF SECTION BAR */
+
+/* SECTIONS */
 .section-row > img {
     width: 100%;
     padding: 0px 20px 20px 20px;
@@ -296,25 +290,18 @@ ul#menu ul li a {
     padding-left: 50px;
 }
 
-#section a {
+#section a, #section p {
     color: hsl(128, 76%, 20%);
 }
 
-#section p a {
-    color: hsl(128, 76%, 20%);
-}
-
-#section a:hover {
+#section p a:hover, a:hover {
     color: hsl(128, 56%, 43%);
     transition-duration: 0.5s;
 }
 
-#section p a:hover {
-    color: hsl(128, 56%, 43%);
-    transition-duration: 0.5s;
-}
+/* END OF SECTIONS */
 
-/* forms */
+/* FORMS */
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
@@ -338,39 +325,25 @@ label {
     display: table;
     clear: both;
 }
- 
-input[type=text], [type=email], select {
-    width: 48%;
-    height: 45px;
+
+input[type=text], [type=email], textarea {
     padding: 12px;
     margin: 10px 0 10px 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
     resize: vertical;
+}
+
+input[type=text], [type=email] {
+    width: 48%;
+    height: 45px;
 }
 
 textarea {
     width: 97.5%;
     height: 90px;
-    padding: 12px;
-    margin: 10px 0 10px 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
 }
-
-/* input[type=email] {
-    width: 48%;
-    height: 45px;
-    padding: 12px;
-    margin: 10px 0 10px 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    resize: vertical;
-} */
 
 .form:hover {
     border-color: rgb(77, 165, 88);
@@ -390,7 +363,6 @@ textarea {
 
 .submit-button:hover {
     background-color: rgb(80, 196, 95);
-    color: #fafafa;
 }
 
 .contact-position {
@@ -398,19 +370,23 @@ textarea {
     padding-bottom: 50px;
 }
 
-/* placeholder changes */
-input{
+/* END OF FORMS */
+
+/* PLACEHOLDER CHANGES */
+input {
     text-indent: 10px;
     font-size: 18px;
-  }
+}
 
 .required:after {
     content:" *";
     color: red;
 }
 
-/* google maps embed */
-.map-responsive{
+/* END OF PLACEHOLDER CHANGES */
+
+/* GOOGLE MAPS EMBED */
+.map-responsive {
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
@@ -418,7 +394,7 @@ input{
     min-width: 300px;
 }
 
-.map-responsive iframe{
+.map-responsive iframe {
     left:0;
     top:0;
     height:100%;
@@ -426,7 +402,9 @@ input{
     position:absolute;
 }
 
-/* footer */
+/* END OF GOOGLE MAPS EMBED */
+
+/* FOOTER */
 #footer {
     background-color: #363839;
     width: 100%;
@@ -464,8 +442,6 @@ input{
 }
 
 #footer-menu {
-    margin: 0;
-    padding: 0;
     list-style: none;
     line-height: 45px;
     font-size: 18px;
@@ -501,7 +477,9 @@ input{
     color: #858282;
 }
 
-/* copyright footer */
+/* END OF FOOTER */
+
+/* COPYRIGHT */
 #copyright {
     background-color: #282A2B;
     width: 100%;
@@ -521,7 +499,10 @@ input{
     line-height: 40px;
 }
 
-/* responsive */
+/* END OF COPYRIGHT */
+
+/* RESPOSIVENESS */
+/* google map position change when screen size is 604px or below*/
 @media screen and (max-width: 604px) {
     .map-responsive {
         margin-left: 20px;
@@ -533,9 +514,10 @@ input{
     }
 }
 
-/* for screen under 680px */
+/* for screen equal to / under 680px */
 @media screen and (max-width: 680px) {
-    /* info bar */
+    /* INFO BAR */
+    /* changes to info bar for two lines height */
     #info-bar {
         width: 100%;
         height: 90px;
@@ -552,7 +534,6 @@ input{
     }
     
     #info-bar, .info-bar-left, .info-bar-right {
-        display: block;
         width: 100%;
     }
 
@@ -562,6 +543,7 @@ input{
     
     .info-bar-left {
         border-bottom: 1px solid rgb(255, 255, 255);
+        margin-left: 0;
     }
 
     .info-bar-nav {
@@ -569,26 +551,28 @@ input{
         list-style-type: none;
     }
 
+    /* form columns to be full width */
     .column-25, .column-75 {
         width: 100%;
         margin-top: 0;
     }
     
+    /* for text/images div to be 100% width for mobile */
     .column-50 {
         width: 100%;
         margin-top: 0;
     }
 
+    /* submit button margin increase */
     input[type=submit] {
         margin: 20px;
     }
 }
 
-/* infobar adjusments for very low pixels */
+/* for screen equal to / under 359px */
 @media screen and (max-width: 359px) {
-    /* info bar */
+    /* infobar adjusments for very small screen size devices */
     #info-bar {
-        width: 100%;
         height: 137px;
         font-size: 10px;
     }
@@ -605,39 +589,40 @@ input{
         border-bottom: 1px solid white;
     }
 
+    /* size decrease of logo across all pages */
     .logo {
         width: 175px;
         height: 175px;
     }
 
+    /* JMN Suppression textin footer margin changed to fit under smaller logo */
     #footer-jmn {
         margin-left: -155px; 
     }
 
+    /* move menu more to the left closer to reduced size logo */
     ul#menu {
         margin-left: 170px;
     }
 }
 
+/* for screen equal to / under 280px */
 @media screen and (max-width: 280px) {
-    /* info bar */
+    /* extend info bar more */
     #info-bar {
-        width: 100%;
         height: 182px;
-        font-size: 10px;
     }
 }
 
+/* for screen equal to / under 227px */
 @media screen and (max-width: 227px) {
     /* info bar */
     #info-bar {
-        width: 100%;
         height: 226px;
-        font-size: 10px;
     }
 }
 
-/* for screens under 893px wide */
+/* for screens equal to / under 893px */
 @media screen and (max-width: 893px) {
     /* logo and menu */
     #menu {
@@ -672,24 +657,19 @@ input{
     }
 }
 
-/* for screens under 520px */
+/* for screens equal to / under 520px */
 @media screen and (max-width: 520px) {
     /* move menu to left side due to smaller screen */
     ul#menu ul {
         top: 0;
         left: -155px;
     }
-    /* .logo {
-        display: block;
-        height: auto;
-        max-width: 1000px;
-    } */
 }
 
-/* for screens under 1010px */
+/* for screens equal to / under 1010px */
 @media screen and (max-width: 1010px) 
 {
-    /* footer */
+    /* footer aligned vertically */
     #footer {
         width: 100%;
         font-size: 11px;
