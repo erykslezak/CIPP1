@@ -510,6 +510,8 @@ To deploy this page to GitHub Pages from its [GitHub repository](https://github.
 - [Stack Overflow](https://stackoverflow.com/questions/59220029/making-google-maps-responsive-and-resizing) - Fix google maps responsiveness and resizing.
 - [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-add-a-favicon-to-your-website-with-html) - How to add favicon.
 - [W3 Schools](https://www.w3schools.com/) - Best resource when it comes to attributes etc. Used it many times and without it I would be more confused.
+- [Github](https://github.com/Edb83) - README Layout
+- [Mentor]() - I wanna thank my mentor Gerry for support and input.
 - [Google](https://www.google.com/) - Ammm yes.
 
 ## Content
