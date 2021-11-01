@@ -207,7 +207,7 @@ The site theme was chosen based on client's logo that was provided, bright color
 
   _404 Page to redirect if page has not been found._
 
-- Thank you page
+- Thank you page **THAT IS NOW DONE**
 
   _Page when form has successfuly been submited.
 
